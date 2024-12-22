@@ -26,7 +26,7 @@ const Appointment = () => {
                             <SectionTitle 
                             subTitle="BOOK APPOINTMENT"
                             title="Care at Max Clinic & Hospital is pleasure"
-                            description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual"/>
+                            description="Get in touch with us for appointments, inquiries, or emergency dental care — we're here to help 24/7! Your smile is just a call away."/>
 
                             <ContactForm />
                         </div>

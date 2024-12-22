@@ -2,6 +2,7 @@ import React from 'react';
 import './Navbar.scss';
 import logo from './../../assets/log.jpeg';
 import {Link} from 'react-router-dom';
+import log from './../../assets/1.PNG'
 
 const Navbar = () => {
 
@@ -15,13 +16,13 @@ const Navbar = () => {
             path: '/about',
         },
         {
-            name: 'Single Service',
+            name: 'Services',
             path: '/singleservice',
         },
-        {
-            name: 'Blogs',
-            path: '/blogs',
-        },
+        // {
+        //     name: 'Blogs',
+        //     path: '/blogs',
+        // },
         {
             name: 'Contact Us',
             path: '/contact',
@@ -35,12 +36,18 @@ const Navbar = () => {
                     <div className="container-fluid">
                         {/* Logo */}
                         <Link className="navbar-brand" to="/">
-                            <img src={logo} alt="logo" />
+                            <img src={logo} alt="logo" className='image-main'  />
+                            {/* <img src={log} alt="log" /> */}
+
                             {/* <img src={} alt="logo" /> */}
 
                         </Link>
-                        < div className="container1">
-                        <h3>𝕄𝕒𝕩  ℂ𝕝𝕚𝕟𝕚𝕔 𝕒𝕟𝕕 ℍ𝕠𝕤𝕡𝕚𝕥𝕒𝕝</h3>
+                         < div className="container1"> 
+                       
+                        {/* <div class="font-effect-shadow-multiple">
+                            <h3>Max Clinic and Hospital</h3>
+
+                        </div> */}
 
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

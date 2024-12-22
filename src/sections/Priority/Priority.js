@@ -19,12 +19,17 @@ const Priority = () => {
                             <SectionTitle 
                                 subTitle="OUR PRIORITY" 
                                 title="Our clients are our priority"
-                                description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups."
+                                description="At Dr. Mayank Kumar’s Dental Clinic, we stand out for our commitment to excellence in every aspect of dental care:
+
+Expert Team: Our clinic is led by Dr. Mayank Kumar and a team of highly experienced dental professionals. With years of expertise and dedication, we ensure that every patient receives top-tier care.
+Cutting-Edge Technology: Equipped with state-of-the-art facilities, we utilize advanced tools and techniques to ensure accurate diagnoses and effective treatments.
+Patient-Centered Care: We prioritize your comfort and well-being, delivering personalized and compassionate care that makes every visit stress-free.
+Tailored Treatment Plans: Understanding that every patient is unique, we customize our treatment plans to suit individual needs, ensuring the best outcomes."
                             />
 
-                            <div className="theme-btn">
+                            {/* <div className="theme-btn">
                                 <Link to='/'>Book an appointment</Link>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

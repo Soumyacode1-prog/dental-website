@@ -11,8 +11,8 @@ const BlogCard = ({blog}) => {
                 <div className="blog-img">
                     <img src={img} alt="blog"/>
                     <div className="date">
-                        <h6>23</h6>
-                        <p>Jan</p>
+                        <h6>2024</h6>
+                        <p></p>
                     </div>
                 </div>
                 <div className="blog-text">

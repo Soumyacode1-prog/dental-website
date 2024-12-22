@@ -1,22 +1,29 @@
 import React from 'react';
-import logo from '../../assets/footer_logo.png';
+import logo from '../../assets/logo1.jpg';
 import './Footer.scss';
-import { FaFacebookF, FaInstagram, FaTwitter} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter,FaYoutube } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import call from '../../assets/footer/calling.png';
 import time from '../../assets/footer/time.png';
 import location from '../../assets/footer/location.png';
+import About from '../../pages/About';
+import Services from '../Services/Services';
+import Blogs from '../Blogs/Blogs';
+
+
+
+
 
 const Footer = () => {
 
     const footerMenu = [
         {
             'name' : 'About Us',
-            'link' : '/'
+            'link' : '/about'
         },
         {
-            'name' : 'Dental Services',
-            'link' : '/'
+            'name' : 'Services',
+            'link' : '/singleservice'
         },
         {
             'name' : 'Dentist',
@@ -24,28 +31,28 @@ const Footer = () => {
         },
         {
             'name' : 'Blogs',
-            'link' : '/'
+            'link' : '/blogs'
         },
         {
-            'name' : 'FAQs',
-            'link' : '/'
+            'name' : 'Faq',
+            'link' : '/faq'
         }
     ];
 
     const footerContacts = [
         {
             'title': 'Phone Number',
-            'info': '+088 123 654 987',
+            'info': '7543930508',
             'icon': call
         },
         {
             'title': 'Open Hour',
-            'info': '09:00 AM - 18:00 PM',
+            'info': '09:00 AM - 8:00 PM',
             'icon': time
         },
         {
             'title': 'Clinic Address',
-            'info': '35 West Dental Street California 1004',
+            'info': ' Max Dental Clinic & Hospital, Line Bazar,Purnea',
             'icon': location
         }
     ]
@@ -55,17 +62,22 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-md-5">
+                        {/* <div>
+                            <h3>Max Clinic & Hospital </h3>
+                        </div> */}
                         <div className="footer-logo">
                             <img src={logo} alt="logo" />
+                            {/* <h3>Max Clinic & Hospital</h3> */}
                         </div>
-                        <p>Dental Care Seattle is a top-rated local practice for cosmetic, preventative, and restorative dentistry on First Hill</p>
+                        <p>Max Dental Clinic is a top-rated clinic with expertise in smile makeovers, crowns, bridges, and restoring oral functionality.</p>
 
                         <div className="social-logo">
                             <p>Follow us on</p>
                             <ul>
                                 <li><a href="/"><FaFacebookF/></a></li>
-                                <li><a href="/"><FaTwitter/></a></li>
-                                <li><a href="/"><FaInstagram/></a></li>
+                                {/* <li><a href="/"><FaTwitter/></a></li> */}
+                                <li><a href="https://youtube.com/@drmayankkumarsingh?si=pMzbda9h0e-K4zst"><FaYoutube /></a></li>
+                                <li><a href="https://www.instagram.com/maxde.ntal/profilecard/?igsh=Z2V3NG1vOWszcTZl"><FaInstagram/></a></li>
                             </ul>
                         </div>
                     </div>

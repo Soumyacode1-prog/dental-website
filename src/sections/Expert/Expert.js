@@ -13,8 +13,8 @@ const Expert = () => {
                         <div className="expert-text">
                             <SectionTitle 
                                 subTitle="EXPERTS IN DENTAL"
-                                title="Top-notch dentistry, from Seattle's top dentists."
-                                description="Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts"
+                                title="Top-notch dentistry, from  top dentists."
+                                description="Our team of highly skilled dental professionals is dedicated to providing exceptional care and personalized treatments."
                             />
 
                             <ul>

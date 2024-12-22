@@ -13,28 +13,28 @@ const Testimonial = () => {
     const testimonails = [
         {
             'img': imgOne,
-            'name': 'Robert Fox',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'name': 'Shyam Jaiswal',
+            'description' :'Very good experience Dr. Mayank Singh was very calm and supportive. Overall rating 10 out of 10. Must visit to Max Dental Clinic if anyone having any dental problem without any hesitation.',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
         {
             'img': imgTwo,
-            'name': 'Albert Flores',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'name': 'Akash Dhanuka',
+            'description' : 'One stop solution for all your dental & oral problems. Dr. Mayank Sir is not only a great Doctor but he is also a great human being. He treat his patient with utmost care & diligence. The City of Purnea is very fortunate to have a Medical Practitioner like Dr. Mayank Kumar Sir.',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
         {
             'img': imgThree,
-            'name': 'Bessie Cooper',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+            'name': 'Rishant Kumar Raman',
+            'description' : 'I recently visited MAX DENTAL CLINIC for a dental appointment regarding my third molar teeth problem, and I must say, the experience was excellent from start to finish.I was deeply impressed by the humble nature of Dr. MAYANK KUMAR SINGH.',
             'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
         },
-        {
-            'img': imgOne,
-            'name': 'Bessie Cooper',
-            'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
-            'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
-        }
+        // {
+        //     'img': imgOne,
+        //     'name': 'Bessie Cooper',
+        //     'description' : 'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts',
+        //     'ratings':[<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>,<AiFillStar/>]
+        // }
     ]
 
     // slider
@@ -80,7 +80,7 @@ const Testimonial = () => {
                         />
                     </div>
                     <div className="col-lg-6">
-                        <p className="pt-5">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts </p>
+                        <p className="pt-5">The team at Max Dental is incredibly professional and caring. They made me feel comfortable during my treatment, and the results were fantastic!" – Priya S </p>
                     </div>
                 </div>
 

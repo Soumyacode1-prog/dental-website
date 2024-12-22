@@ -13,8 +13,8 @@ const About = () => {
             <Navbar />
             <AboutBanner />
             <Priority />
-            <Safety />
             <Team />
+            <Safety /> 
             <Faq />
             <Footer />
         </>
