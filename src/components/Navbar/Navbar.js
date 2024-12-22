@@ -66,7 +66,7 @@ const Navbar = () => {
                             
                             {/* Navbar Button */}
                             <div className="theme-btn">
-                                <Link to="/contact">Book appointment Now</Link>
+                                <Link to="/contact">Book appointment </Link>
                             </div>
                         </div>
                     </div>
