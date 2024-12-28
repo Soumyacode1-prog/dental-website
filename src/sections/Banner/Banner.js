@@ -35,7 +35,7 @@ const Banner = () => {
                                             </div>
                                             <div className='call-text'>
                                                 <p>Dental 24H Emergency</p>
-                                                <h6>7543930508</h6>
+                                                <h6> +91 7781893306</h6>
                                             </div>
                                         </div>
                                     </div>

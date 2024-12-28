@@ -10,8 +10,8 @@ const Blogs = () => {
         <section className='pt-100 pb-70 blog-section' data-aos="fade-up" data-aos-duration="2000">
             <div className="container">
                 <SectionTitle
-                    subTitle="Blogs"
-                    title="Stay updated with our latest news"
+                    subTitle="Our Experts"
+                    title="Consult the expert doctors at Max Dental most of whom are pioneers in their specialties"
                 />
 
                 <div className="row">

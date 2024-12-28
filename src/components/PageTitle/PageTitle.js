@@ -5,8 +5,8 @@ const PageTitle = ({title,description}) => {
     return (
         <div className='page-title'>
             <div className="container">
-                <h2>News & Articles</h2>
-                <p>Stays updated with our latest blog and news and get healthy tips & trick for oral health</p>
+                <h2>Our Experts</h2>
+                <p>Consult the expert doctors at Max Dental most of whom are pioneers in their specialties and apply a patient-focused approach towards healthcare.</p>
             </div>
         </div> 
     );

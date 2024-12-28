@@ -9,6 +9,8 @@ import Features from '../sections/Features/Features';
 import Footer from '../sections/Footer/Footer';
 import Services from '../sections/Services/Services';
 import Testimonial from '../sections/Testimonial/Testimonial';
+import Terms from '../components/Terms';
+import Privacy from '../components/Privacy';
 
 const Home = () => {
 
@@ -21,7 +23,9 @@ const Home = () => {
             <Features />
             <Expert/>
             <Testimonial/>
-            {/* <Blogs/> */}
+            <Blogs/>
+            <Terms/>
+            <Privacy/>
             <Appointment/>
             <Footer/>
         </>

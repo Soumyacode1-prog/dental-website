@@ -9,6 +9,10 @@ import location from '../../assets/footer/location.png';
 import About from '../../pages/About';
 import Services from '../Services/Services';
 import Blogs from '../Blogs/Blogs';
+import Terms from '../../components/Terms';
+import Privacy from '../../components/Privacy';
+
+
 
 
 
@@ -42,7 +46,7 @@ const Footer = () => {
     const footerContacts = [
         {
             'title': 'Phone Number',
-            'info': '7543930508',
+            'info': '+91 7781893306',
             'icon': call
         },
         {
@@ -74,9 +78,9 @@ const Footer = () => {
                         <div className="social-logo">
                             <p>Follow us on</p>
                             <ul>
-                                <li><a href="/"><FaFacebookF/></a></li>
+                                <li><a href="https://g.co/kgs/vcgTAFW"><FaFacebookF/></a></li>
                                 {/* <li><a href="/"><FaTwitter/></a></li> */}
-                                <li><a href="https://youtube.com/@drmayankkumarsingh?si=pMzbda9h0e-K4zst"><FaYoutube /></a></li>
+                                <li><a href="https://youtube.com/@maxdentalclinichospital?si=ZUQgfy9CmfiHGjN7"><FaYoutube /></a></li>
                                 <li><a href="https://www.instagram.com/maxde.ntal/profilecard/?igsh=Z2V3NG1vOWszcTZl"><FaInstagram/></a></li>
                             </ul>
                         </div>
@@ -118,8 +122,11 @@ const Footer = () => {
                     </div>  
                     <div className='copy-links'>
                         <ul>
-                            <li><Link to='/'>Terms of Use</Link></li>
-                            <li><Link to='/'>Privacy Policy</Link></li>
+{/*                       
+                            <li><a href="/terms">Terms Of Use</a></li> */}
+                            <li><Link to="/terms">Terms of Use</Link></li>
+                                  
+                             <li><Link to='/privacy'>Privacy Policy</Link></li>
                         </ul>
                     </div>                          
                 </div>
