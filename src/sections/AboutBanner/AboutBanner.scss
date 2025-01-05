@@ -1,22 +1,180 @@
-.about-section {
-    height: 750px;
+// .about-section {
+//     height: 750px;
     
+//     .about-banner-text {
+//         h2 {
+//             font-size: 60px;
+//             font-weight: 700;
+//             margin-bottom: 10px;
+//             margin-top: 100px;
+            
+//         }
+
+//         p {
+//             margin-bottom: 50px;
+//             width:750px;
+//         }
+//     }
+
+
+    // .about-banner-img {
+    //     text-align: center;
+    //     position: relative;
+
+    //     img {
+    //         margin: 0 10px;
+
+    //         &:nth-child(2) {
+    //             margin-top: 120px;
+    //         }
+    //     }
+
+    //     .pattern {
+    //         position: absolute;
+    //         left: 0;
+    //         right: 0;
+    //         margin: auto;
+    //         bottom: 0;
+    //         z-index: -1;
+    //     }
+    // }
+
+
+// // Mobile Responsive
+// @media (max-width: 575px) {
+//     .about-section {
+//         text-align: center;
+//         height: 100%;
+//         padding-top: 70px;
+
+//         .about-banner-text {
+//             margin-bottom: 20px;
+
+//             h2 {
+//                 font-size: 40px;
+//                 margin-bottom: 15px;
+//             }
+
+//             p {
+//                 margin-bottom: 25px;
+//             }
+//         }
+
+//         .about-banner-img {
+//             img {
+//                 &:nth-child(2) {
+//                     margin-top: 10px;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// @media (min-width: 576px) and (max-width: 767px) {
+//     .about-section {
+//         text-align: center;
+//         height: 100%;
+//         padding-top: 70px;
+
+//         .about-banner-text {
+//             margin-bottom: 20px;
+
+//             h2 {
+//                 font-size: 40px;
+//                 margin-bottom: 15px;
+//             }
+
+//             p {
+//                 margin-bottom: 25px;
+//             }
+//         }
+
+//         .about-banner-img {
+//             img {
+//                 max-width: 170px;
+//                 &:nth-child(2) {
+//                     margin-top: 10px;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// // Medium Responsive
+// @media (min-width: 768px) and (max-width: 991px) {
+//     .about-section {
+//         text-align: center;
+//         height: 100%;
+//         padding: 100px 0;
+
+//         .about-banner-text {
+//             h2 {
+//                 font-size: 40px;
+//                 margin-bottom: 10px;
+//             }
+
+//             p {
+//                 font-size: 16px;
+//                 margin-bottom: 20px;
+//             }
+//         }
+//     }
+// }
+
+// // Large Responsive
+// @media (min-width: 992px) and (max-width: 1199px) {
+//     .about-section {
+//         height: 100%;
+//         padding: 100px 0;
+
+//         .about-banner-img {
+//             img {
+//                 max-width: 180px;
+//             }
+//         }
+//     }
+// }
+//////////////////////////////////////////////
+.about-section {
+    padding: 5% 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
     .about-banner-text {
         h2 {
-            font-size: 60px;
+            font-size: 3rem;
             font-weight: 700;
-            margin-bottom: 10px;
-            margin-top: 100px;
-            
+            margin-bottom: 2rem;
         }
 
         p {
+            font-size: 1rem;
+            line-height: 1.6;
             margin-bottom: 50px;
-            width:750px;
+            width: 750px;
         }
     }
 
+    // .about-banner-img {
+    //     position: relative;
 
+    //     img {
+    //         max-width: 100%;
+    //         height: auto;
+    //         margin: 0 auto;
+    //     }
+
+    //     h5 {
+    //         font-size: 1.2rem;
+    //         margin-top: 1rem;
+    //     }
+
+    //     h6 {
+    //         font-size: 1rem;
+    //         color: #555;
+    //     }
+    // }
     .about-banner-img {
         text-align: center;
         position: relative;
@@ -38,33 +196,26 @@
             z-index: -1;
         }
     }
+
 }
 
-// Mobile Responsive
+// Responsive Design
 @media (max-width: 575px) {
     .about-section {
-        text-align: center;
-        height: 100%;
-        padding-top: 70px;
-
         .about-banner-text {
-            margin-bottom: 20px;
-
             h2 {
-                font-size: 40px;
-                margin-bottom: 15px;
+                font-size: 2rem;
             }
 
             p {
-                margin-bottom: 25px;
+                font-size: 0.9rem;
+                margin-bottom: 1.5rem;
             }
         }
 
         .about-banner-img {
-            img {
-                &:nth-child(2) {
-                    margin-top: 10px;
-                }
+            h5, h6 {
+                font-size: 0.9rem;
             }
         }
     }
@@ -72,65 +223,25 @@
 
 @media (min-width: 576px) and (max-width: 767px) {
     .about-section {
-        text-align: center;
-        height: 100%;
-        padding-top: 70px;
-
-        .about-banner-text {
-            margin-bottom: 20px;
-
-            h2 {
-                font-size: 40px;
-                margin-bottom: 15px;
-            }
-
-            p {
-                margin-bottom: 25px;
-            }
-        }
-
-        .about-banner-img {
-            img {
-                max-width: 170px;
-                &:nth-child(2) {
-                    margin-top: 10px;
-                }
-            }
+        .about-banner-text h2 {
+            font-size: 2.5rem;
         }
     }
 }
 
-// Medium Responsive
 @media (min-width: 768px) and (max-width: 991px) {
     .about-section {
-        text-align: center;
-        height: 100%;
-        padding: 100px 0;
-
-        .about-banner-text {
-            h2 {
-                font-size: 40px;
-                margin-bottom: 10px;
-            }
-
-            p {
-                font-size: 16px;
-                margin-bottom: 20px;
-            }
+        padding: 4% 0;
+        .about-banner-text h2 {
+            font-size: 2.8rem;
         }
     }
 }
 
-// Large Responsive
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) {
     .about-section {
-        height: 100%;
-        padding: 100px 0;
-
-        .about-banner-img {
-            img {
-                max-width: 180px;
-            }
+        .about-banner-text h2 {
+            font-size: 3rem;
         }
     }
 }

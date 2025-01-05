@@ -158,7 +158,7 @@ const ContactForm = () => {
                         </div>
                         <div className='call-text'>
                             <p>Dental 24H Emergency</p>
-                            <h6>+91 7781893306</h6>
+                            <h6>+91 7781893306 , 8271025122</h6>
                         </div>
                     </div>
                 </div>

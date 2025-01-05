@@ -1,3 +1,30 @@
+// import React from 'react';
+// import SectionTitle from '../../components/SectionTitle/SectionTitle';
+// import Navbar from '../../components/Navbar/Navbar';
+// import './Contactus.scss';
+// import ContactForm from '../../components/ContactForm/ContactForm';
+// import Footer from '../../sections/Footer/Footer';
+
+// const Contactus = () => {
+//     return (
+//         <>
+//             <section className='section-bg section-common contact-section'>
+//                 <Navbar />
+//                 <SectionTitle 
+//                     title="Contact Us"
+//                     description=" "
+//                 />
+//             </section>
+//             <section className='contact-form-area' data-aos="fade-up" data-aos-duration="2000">
+//                 <ContactForm />
+//             </section>
+//             <Footer />
+//         </>
+//     );
+// };
+
+// export default Contactus;
+// // *******************************************
 import React from 'react';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import Navbar from '../../components/Navbar/Navbar';
@@ -8,15 +35,19 @@ import Footer from '../../sections/Footer/Footer';
 const Contactus = () => {
     return (
         <>
-            <section className='section-bg section-common contact-section'>
+            <section className="section-bg section-common contact-section">
                 <Navbar />
-                <SectionTitle 
-                    title="Contact Us"
-                    description=" "
-                />
+                <div className="container">
+                    <SectionTitle 
+                        title="Contact Us"
+                        description=" "
+                    />
+                </div>
             </section>
-            <section className='contact-form-area' data-aos="fade-up" data-aos-duration="2000">
-                <ContactForm />
+            <section className="contact-form-area" data-aos="fade-up" data-aos-duration="2000">
+                <div className="container">
+                    <ContactForm />
+                </div>
             </section>
             <Footer />
         </>

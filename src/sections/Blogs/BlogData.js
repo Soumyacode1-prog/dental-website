@@ -8,42 +8,42 @@ import imgFour from '../../assets/about/team/dr419.png';
 import imgFive from '../../assets/about/team/dr51.png';
 import imgSix from '../../assets/about/team/dr612.png';
 import imgSeven from '../../assets/about/team/dr71.png';
-import imgEight from '../../assets/about/team/666.png';
+import imgEight from '../../assets/about/team/66666.png';
 
 const BlogData = [
     {
         'img': imgOne,
         'url': 'new-technology-make-for-dental-operation',
         'title':'Dr. Mayank Kumar Singh',
-        'description':"BDS (MCODS,Manipal), MDS (Oral Medicine & Radiology), MS Implantology",
-        'category': 'DIRECTOR'
+        'description':" BDS (MCODS,Manipal), MDS (Oral Medicine & Radiology), MS Implantology ",
+        'category': 'Regd No.3582/A'
     },
      {
-        'img': imgTwo,
+        'img': imgThree,
         'url':'regular-dental-care-make-your-smile-brighter',
         'title':'Dr.A Kumar',
         'description':" MDS ORTHODONTICS",
-        'category': 'SPECIALIST'
+        'category': 'Regd No.7728/A'
     },
     {
-        'img': imgThree,
+        'img':imgTwo ,
         'url':'dental-hygiene-for-all-age-to-make-smile',
         'title':'Dr.P.Kumar',
         'description':"MDS ORAL & MAXILLOFACIAL SURGERY",
-        'category': 'SPECIALIST'
+        'category': 'Regd No.6217/A'
     },
     {
         'img': imgFour,
         'url':'dental-hygiene-for-all-age-to-make-smile',
         'title':'Dr.N.Milki',
         'description':"MDS MICRO ENDODONTICS",
-        'category': 'SPECIALIST'
+        'category': 'Regd No.3605/A'
     },
     {
         'img': imgFive,
         'url':'dental-hygiene-for-all-age-to-make-smile',
         'title':'Dr.Tanya Singh',
-        'description':"BIDSH BUDDHA DENTAL COLLEGE,PATNA",
+        'description':"BIDSH, PATNA",
         'category': 'Regd No.10590/A'
     },
     // {
@@ -57,21 +57,21 @@ const BlogData = [
         'img': imgSeven,
         'url':'dental-hygiene-for-all-age-to-make-smile',
         'title':'Dr.Sushmita Sen',
-        'description':"BIDSH RUHS JAIPUR",
+        'description':"RUHS, JAIPUR",
         'category': 'Regd No.11014/A'
     },
     {
         'img': imgSix,
         'url':'dental-hygiene-for-all-age-to-make-smile',
         'title':'Dr.Neha Rani',
-        'description':"BIDSH",
+        'description':"HCDSH, HAZARIBAGH",
         'category': 'Regd No.10801/A'
     },
     {
         'img': imgEight,
         'url':'dental-hygiene-for-all-age-to-make-smile',
         'title':'Dr. Rashmi Raj',
-        'description':"BIDSH BUDDHA DENTAL COLLEGE",
+        'description':"BIDSH, PATNA",
         'category': 'Regd No.11840/A'
     },
     // {

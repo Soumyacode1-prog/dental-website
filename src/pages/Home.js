@@ -19,12 +19,16 @@ const Home = () => {
             <Navbar/>
             <Banner/>
             <Services/>
-            <Emergency/>
             <Features />
             <Expert/>
-            <Testimonial/>
-            <Blogs/>
-            <Terms/>
+            
+             <Blogs/>
+             <Emergency/>
+         <Testimonial/>
+           <Terms/> 
+           
+           
+            
             <Privacy/>
             <Appointment/>
             <Footer/>

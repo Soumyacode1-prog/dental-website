@@ -10,11 +10,19 @@ import shapeOne from '../../assets/banner/vector_01.png';
 import shapeTwo from '../../assets/banner/vector_02.png';
 import shapeThree from '../../assets/banner/vector_03.png';
 import shapeFour from '../../assets/banner/pattern.png';
+import BackgroundI from '../../assets/banner/ooo.PNG';
 
 const Banner = () => {
 
     return (
-        <section className='section-bg section-common banner-section'>
+        <section className='section-bg section-common banner-section'
+        style={{
+            backgroundImage: `url(${BackgroundI})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+        }}
+    >
             <div className="d-table">
                 <div className="d-table-cell">
                     <div className="container">
@@ -36,6 +44,7 @@ const Banner = () => {
                                             <div className='call-text'>
                                                 <p>Dental 24H Emergency</p>
                                                 <h6> +91 7781893306</h6>
+                                                <h6> +91 8271025122</h6>
                                             </div>
                                         </div>
                                     </div>
@@ -44,9 +53,9 @@ const Banner = () => {
 
                             <div className="col-lg-6">
                                 <div className="banner-img-area" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-                                    <div className="banner-img">
+                                    {/* <div className="banner-img">
                                         <img src={bannerImg} alt="banner model" />
-                                    </div>
+                                    </div> */}
                                     <div className='info-box'>
                                         {/* <div className="info-img">
                                             <img src={doctorImg} alt="doctor" />

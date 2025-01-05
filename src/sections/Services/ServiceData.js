@@ -1,7 +1,21 @@
-import iconOne from '../../assets/service/1.png';
-import iconTwo from '../../assets/service/2.png';
-import iconThree from '../../assets/service/3.png';
-import iconFour from '../../assets/service/4.png';
+import iconOne from '../../assets/service/11.png';
+import iconTwo from '../../assets/service/fmr.jpg';
+import iconThree from '../../assets/service/ko.jpeg';
+import iconFour from '../../assets/service/b.jpeg';
+import iconFive from '../../assets/service/c.jpg';
+import iconSix from '../../assets/service/wp.jpeg';
+import iconSeven from '../../assets/service/e.jpg';
+import iconEight from '../../assets/service/f.jpg';
+import iconNine from '../../assets/service/zr.PNG';
+import iconTen from '../../assets/service/pf.jpg';
+import iconEleven from '../../assets/service/mo.jpeg';
+import iconTwelve from '../../assets/service/j.jpg';
+import iconThirteen from '../../assets/service/cl.jpg';
+import iconForteen from '../../assets/service/res.jpg';
+import iconFifteen from '../../assets/service/ds.webp';
+import iconSixteen from '../../assets/service/x.jpeg';
+import iconSeventeen from '../../assets/service/xr.jpeg';
+
 
 
 const ServicesData = [
@@ -25,76 +39,74 @@ const ServicesData = [
         'title': 'Smile Makeover',
         // 'description': 'Lorem ipsum is placeholder text commonly used in the graphic,',
     },
+   
     {
-        'icon' : iconFour,
+        'icon' : iconFive,
         'title' : 'Venners',
         // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
     },
     {
-        'icon' : iconFour,
-        'title' : 'Extraction',
-        // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
-    },
-    {
-        'icon' : iconFour,
+        'icon' : iconSix,
         'title' : 'Mandibular Fracture',
         // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
     },
     {
-        'icon' : iconFour,
+        'icon' : iconSeven,
         'title' : 'TMJ Problems',
         // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
     },
     {
-        'icon' : iconFour,
-        'title' : 'Cleaning & Polishing',
-        // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
-    },
-    {
-        'icon' : iconFour,
+        'icon' : iconEight,
         'title' : 'Fracture',
         // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
     },
     {
-        'icon' : iconFour,
+        'icon' : iconNine,
         'title' : 'Zirconia Crown',
         // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
     },
     {
-        'icon' : iconFour,
+        'icon' : iconTen,
         'title' : 'PFM Crown',
         // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
     },
     {
-        'icon' : iconFour,
+        'icon' : iconEleven,
         'title' : 'Metallic Braces',
         // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
     },
     {
-        'icon' : iconFour,
+        'icon' : iconTwelve,
         'title' : 'Ceramic Braces',
         // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
     },
     {
-        'icon' : iconFour,
+        'icon' : iconThirteen,
         'title' : 'Aligners-Invisible Braces',
         // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
     },
     {
-        'icon' : iconFour,
+        'icon' : iconForteen,
         'title' : 'Tooth Colour Restoration',
         // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
     },
-    // {
-    //     'icon' : iconFour,
-    //     'title' : 'Anti Caries Treatment',
-    //     'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
-    // },
-    // {
-    //     'icon' : iconFour,
-    //     'title' : 'Extreme sensitivity',
-    //     'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
-    // },
+     {
+        'icon' : iconFifteen,
+        'title' : 'Cleaning & Polishing',
+        // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
+    },
+
+// ************************************
+    {
+        'icon' : iconSixteen,
+        'title' : 'Paediatric Dentistry',
+        // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
+    },
+    {
+        'icon' : iconSeventeen,
+        'title' : 'Dental Xrays',
+        // 'description':'Extreme sensitivity to cold or heat when your’e drink or eat' 
+    },
     // {
     //     'icon' : iconFour,
     //     'title' : 'Extreme sensitivity',

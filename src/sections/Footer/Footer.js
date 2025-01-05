@@ -29,24 +29,24 @@ const Footer = () => {
             'name' : 'Services',
             'link' : '/singleservice'
         },
+        // {
+        //     'name' : 'Dentist',
+        //     'link' : '/'
+        // },
         {
-            'name' : 'Dentist',
-            'link' : '/'
-        },
-        {
-            'name' : 'Blogs',
+            'name' : 'Experts',
             'link' : '/blogs'
         },
         {
-            'name' : 'Faq',
-            'link' : '/faq'
+            'name' : 'Contact Us',
+            'link' : '/contact'
         }
     ];
 
     const footerContacts = [
         {
             'title': 'Phone Number',
-            'info': '+91 7781893306',
+            'info': '+91 7781893306,8271025122 ,9608408632,9122049859',
             'icon': call
         },
         {
@@ -54,11 +54,20 @@ const Footer = () => {
             'info': '09:00 AM - 8:00 PM',
             'icon': time
         },
+        // {
+        //     'title': 'Clinic Address',
+        //     'info': '  UNIT-1 : +917781893306, Max Dental Clinic , Line Bazar above Purnea medicine 2nd floor,Purnea',
+        //     'info1':'                                    ',
+        //     'p':'  UNIT-2 : +918271025122,Max Clinic & Hospital, Shagun Palace,near koshi nursery chunapur road ,Purnea',
+        //     'icon': location
+        // }
         {
             'title': 'Clinic Address',
-            'info': ' Max Dental Clinic & Hospital, Line Bazar,Purnea',
+            'info': 'UNIT-1:Max Dental Clinic, Line Bazar above Purnea medicine 2nd floor, Purnea                                                              ',
+            'info1': '     ➕                                                                                                                         ',
+            'p': 'UNIT-2:  Max Clinic & Hospital, Shagun Palace, near Koshi nursery Chunapur road, Purnea',
             'icon': location
-        }
+          }
     ]
 
     return (
@@ -71,7 +80,7 @@ const Footer = () => {
                         </div> */}
                         <div className="footer-logo">
                             <img src={logo} alt="logo" />
-                            {/* <h3>Max Clinic & Hospital</h3> */}
+                            <h3>Max Clinic & Hospital</h3>
                         </div>
                         <p>Max Dental Clinic is a top-rated clinic with expertise in smile makeovers, crowns, bridges, and restoring oral functionality.</p>
 
@@ -107,7 +116,10 @@ const Footer = () => {
                                                 </div>
                                                 <div className="contact-text">
                                                     <p>{footerContact.title}</p>
-                                                    <h5>{footerContact.info}</h5>
+                                                    <h5> { footerContact.info } </h5>
+                                                    <h5> { footerContact.info1 } </h5>
+                                                    <h5> { footerContact.p } </h5>
+
                                                 </div>
                                             </div>
                                 })
