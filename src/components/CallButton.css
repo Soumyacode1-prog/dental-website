@@ -1,0 +1,44 @@
+/* CallButton.css */
+
+/* Style for the Flashback message */
+.flashback-message {
+    position: fixed; /* Keeps the message fixed at the bottom */
+    bottom: 90px; /* Position it just above the call button */
+    right: 20px; /* Align it to the right */
+    /* background-color: #133ca4; White background for the message */
+    padding: 10px 20px; /* Padding for spacing around the text */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for visibility */
+    color: #333; /* Dark text color */
+    font-size: 16px; /* Text size */
+    font-weight: bold; /* Make the text bold */
+    border-radius: 0px; /* Rounded corners */
+    z-index: 999;
+    height:300px;
+    width:50px; 
+    text-align: ;
+    margin-bottom: 100px;/* Ensure it stays on top of other elements */
+  }
+  
+  /* Style for the call button */
+  .call-button {
+    position: fixed; /* Keeps the button fixed on the screen */
+    bottom: 100px; /* Position it at the bottom */
+    right: 20px; /* Align it to the right */
+    background-color: #25d366; /* Green color */
+    border-radius: 50%; /* Circular button */
+    padding: 15px; /* Padding around the icon */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Shadow for the button */
+    color: rgb(210, 62, 25); /* White icon color */
+    font-size: 30px; /* Icon size */
+    text-align: center; /* Center the icon */
+    line-height: 1; /* Proper alignment of the icon */
+    cursor: pointer; /* Pointer cursor on hover */
+    z-index: 1000; /* Ensure it stays above other elements */
+    transition: transform 0.3s ease-in-out; /* Smooth scaling on hover */
+  }
+  
+  /* Hover effect for the button */
+  .call-button:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+  }
+  

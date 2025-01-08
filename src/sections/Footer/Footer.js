@@ -87,7 +87,7 @@ const Footer = () => {
                         <div className="social-logo">
                             <p>Follow us on</p>
                             <ul>
-                                <li><a href="https://g.co/kgs/vcgTAFW"><FaFacebookF/></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=100087772495792&mibextid=ZbWKwL"><FaFacebookF/></a></li>
                                 {/* <li><a href="/"><FaTwitter/></a></li> */}
                                 <li><a href="https://youtube.com/@maxdentalclinichospital?si=ZUQgfy9CmfiHGjN7"><FaYoutube /></a></li>
                                 <li><a href="https://www.instagram.com/maxde.ntal/profilecard/?igsh=Z2V3NG1vOWszcTZl"><FaInstagram/></a></li>

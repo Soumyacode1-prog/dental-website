@@ -8,9 +8,13 @@ import SingleBlog from './pages/SingleBlog/SingleBlog';
 import Contactus from './pages/Contact/Contactus';
 import Privacy from './components/Privacy';
 import Terms from './components/Terms';
+import WhatsAppButton from './components/WhatsAppButton';
+import CallButton from './components/CallButton';
+
 
 function App() {
   return (
+    <>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
@@ -20,8 +24,12 @@ function App() {
       <Route path="/contact" element={<Contactus />} />
       <Route path="/terms" element={<Terms />} />
       <Route path="/privacy" element={<Privacy />} />
+      
 
     </Routes>
+    <CallButton/>
+    <WhatsAppButton/>
+    </>
   );
 }
 

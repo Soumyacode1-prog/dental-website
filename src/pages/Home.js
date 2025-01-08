@@ -11,6 +11,7 @@ import Services from '../sections/Services/Services';
 import Testimonial from '../sections/Testimonial/Testimonial';
 import Terms from '../components/Terms';
 import Privacy from '../components/Privacy';
+import WhatsAppButton from '../components/WhatsAppButton';
 
 const Home = () => {
 
@@ -21,16 +22,15 @@ const Home = () => {
             <Services/>
             <Features />
             <Expert/>
+            <WhatsAppButton/>
             
              <Blogs/>
              <Emergency/>
          <Testimonial/>
            <Terms/> 
-           
-           
-            
             <Privacy/>
             <Appointment/>
+            {/* <WhatsAppButton/> */}
             <Footer/>
         </>
     );
