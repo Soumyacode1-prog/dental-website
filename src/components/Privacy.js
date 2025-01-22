@@ -51,18 +51,18 @@ const Privacy = () => {
       <p>We collect the following types of information:</p>
       <ul>
         <li><strong>Personal Information:</strong> Name, contact details (phone number, email), and billing information.</li>
-        <li><strong>Payment Information:</strong> Payment details provided during transactions, which are securely processed through Razorpay.</li>
+        <li><strong>Payment Information:</strong> Payment details provided during transactions, which are securely processed through current Integrated payment gateway.</li>
         <li><strong>Website Usage Information:</strong> Data collected via cookies and analytics to improve your experience.</li>
       </ul>
       
       <h2>2. Refund Process</h2>
-      <p>To initiate a refund, email us at <a href="mailto:maxhospitaldoctor@gmail.com">maxhospitaldoctor@gmail.com</a> with the subject “Refund Request” and provide relevant details, including proof of payment. Once the refund is approved, it will be processed through Razorpay.</p>
+      <p>To initiate a refund, email us at <a href="mailto:maxhospitaldoctor@gmail.com">maxhospitaldoctor@gmail.com</a> with the subject “Refund Request” and provide relevant details, including proof of payment. Once the refund is approved, it will be processed through current Integrated payment gateway .</p>
       
       <h2>3. Processing Time</h2>
       <p>Refunds will be credited to the customer's bank account within <strong>2-3 working days</strong> from the date of approval. You will receive a confirmation email once the refund is initiated.</p>
       
       <h2>4. Data Sharing & Security</h2>
-      <p>We do not share your personal or payment information with third parties, except for payment processing through Razorpay or as required by law. All data is securely stored and encrypted to prevent unauthorized access.</p>
+      <p>We do not share your personal or payment information with third parties, except for payment processing through current integrated payment gateway . All data is securely stored and encrypted to prevent unauthorized access.</p>
       
       <h2>5. Contact Us</h2>
       <div className="contact-info">

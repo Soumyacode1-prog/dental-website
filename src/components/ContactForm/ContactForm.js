@@ -147,8 +147,10 @@ const ContactForm = () => {
                 </div>
 
                 <div className="col-lg-6">
+                    <h5>Charges per appointment booking includes ₹400 </h5>
                     <button type="submit" className="btn appointment-btn">
-                        Book an appointment
+                        
+                        Book an appointment ₹400
                     </button>
                 </div>
                 <div className="col-lg-6">

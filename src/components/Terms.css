@@ -1,4 +1,4 @@
-/* Styles for the Terms component */
+/* Styles for the Terms component
 .terms-container {
     max-width: 800px;
     margin: 0 auto;
@@ -26,4 +26,67 @@
   .terms-container p:last-child {
     margin-bottom: 0;
   }
-  
+   */
+
+
+   /* Styles for the Terms component */
+.terms-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 200px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.terms-container h1 {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.terms-container p {
+  margin-bottom: 15px;
+  color: #555;
+  font-size: 16px;
+}
+
+.terms-container p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .terms-container {
+      padding: 1500px;
+      box-shadow: none;
+      border: none;
+      margin-top: 2000px;
+      margin-bottom: 200px;
+  }
+
+  .terms-container h1 {
+      font-size: 1.5em;
+  }
+
+  .terms-container p {
+      font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .terms-container {
+      padding: 10px;
+  }
+
+  .terms-container h1 {
+      font-size: 1.2em;
+  }
+
+  .terms-container p {
+      font-size: 13px;
+  }
+}

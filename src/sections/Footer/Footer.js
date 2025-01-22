@@ -95,14 +95,14 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-lg-2 col-md-2">
-                        <div className="footer-link">
+                        {/* <div className="footer-link">
                             <p>Quick Links</p>
                             <ul>
                                 {
                                     footerMenu.map(singleMenu => <li><Link to="/">{singleMenu.name}</Link></li>)
                                 }
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="col-lg-4 col-md-5">
                         <div className="footer-contact">
